@@ -4,14 +4,16 @@
   Copyright end """
 
 
-import datetime, json, requests, time, xmltodict
+import datetime, json, requests, time, xmltodict, logging
 from urllib.parse import parse_qs
 from connectors.core.utils import update_connnector_config
+from requests_toolbelt.utils import dump
 from connectors.core.connector import get_logger, ConnectorError
 
 from .const import *
 
 logger = get_logger('securonix-snypr')
+#logger.setLevel(logging.DEBUG) #Set log level to debug, remove in production
 
 error_msgs = {
     'time_out': 'The request timed out while trying to connect to the remote server',
@@ -32,26 +34,29 @@ class Securonix(object):
         self.username = config.get('username')
         self.password = config.get('password')
         self.tenant = config.get('tenant')
+        self.api_version = config.get('api_version','6.0')
         self.verify_ssl = config.get('verify_ssl')
         self.token = config.get('api_token')
         self.config = config
         self.connect_name = connector_info.get('connector_name')
         self.connector_version = connector_info.get('connector_version')
+        self.headers = self.generate_headers()
 
 
-    def make_rest_call(self, endpoint, params=None, updated_headers=None, payload=None, method='GET'):
-        headers = updated_headers if updated_headers else self.generate_headers()
+    def make_rest_call(self, endpoint, params=None, headers=None, payload=None, method='GET'):
+        
+        if not headers:
+            headers = self.headers
         service_endpoint = '{0}{1}'.format(self.server_url, endpoint)
         logger.debug('Request URL {}'.format(service_endpoint))
         try:
             data = str(payload) if payload else None
             response = requests.request(method, service_endpoint, data=data, headers=headers, params=params,
                                             verify=self.verify_ssl)
-            logger.debug('API Response {}'.format(response.text))
-            logger.debug('API Status code  {}'.format(response.status_code))
+            logger.debug('\n{0}\n'.format(dump.dump_all(response).decode('utf-8')))
             if response.ok:
                 content_type = response.headers.get('Content-Type')
-                if 'application/json' in content_type:
+                if any(x in content_type for x in ['application/json', 'application/vnd.snypr.app']):
                     json_data = json.loads(response.content.decode('utf-8'))
                     error_status = json_data.get('error')
                     if error_status:
@@ -89,7 +94,7 @@ class Securonix(object):
         headers = {
             'token': token
         }
-        resp = self.make_rest_call('/Snypr/ws/token/validate', updated_headers=headers)
+        resp = self.make_rest_call('/Snypr/ws/token/validate', headers=headers)
         if resp == 'Valid':
             return True
 
@@ -101,7 +106,7 @@ class Securonix(object):
                 'tenant': self.tenant,
                 'validity': str(TOKEN_VALIDITY)
             }
-            self.token = self.make_rest_call('/Snypr/ws/token/generate', updated_headers=headers)
+            self.token = self.make_rest_call('/Snypr/ws/token/generate', headers=headers)
             self.config['api_token'] = self.token
             update_connnector_config(self.connect_name, self.connector_version, self.config,
                                      self.config.get('config_id'))
@@ -320,6 +325,7 @@ def create_incident(config, params, connector_info):
 
 def get_incident_details(config, params, connector_info):
     sec = Securonix(config, connector_info)
+    sec.headers.update({'Accept':f'application/vnd.snypr.app-v{sec.api_version}+json'})
     params.update({'type': 'metaInfo'})
     return sec.make_rest_call('/Snypr/ws/incident/get', params=params)
 
@@ -399,6 +405,7 @@ def list_incidents(config, params, connector_info):
     params['to'] = get_millisecond_epoch_time(params.get('to'))
     params['rangeType'] = params.get('rangeType').lower()
     params = {k: v for k, v in params.items() if v is not None and v != ''}
+    sec.headers.update({'Accept':f'application/vnd.snypr.app-v{sec.api_version}+json'})
     return sec.make_rest_call('/Snypr/ws/incident/get', params=params)
 
 
@@ -444,5 +451,4 @@ operations = {
     'get_available_threat_action': get_available_threat_action,
     'add_comment': add_comment
 }
-
 
