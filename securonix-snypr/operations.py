@@ -4,7 +4,7 @@
   Copyright end """
 
 
-import datetime, json, requests, time, xmltodict, logging
+import datetime, json, requests, time, xmltodict, logging, re
 from urllib.parse import parse_qs
 from connectors.core.utils import update_connnector_config
 from requests_toolbelt.utils import dump
@@ -30,11 +30,13 @@ class Securonix(object):
         self.server_url = config.get('server_url')
         if not self.server_url.startswith('https://'):
             self.server_url = 'https://' + self.server_url
-        self.server_url = config.get('server_url').strip('/')
+        self.server_url = self.server_url.strip('/')
         self.username = config.get('username')
         self.password = config.get('password')
         self.tenant = config.get('tenant')
         self.api_version = config.get('api_version','6.0')
+        if '.' not in str(self.api_version):
+            self.api_version = '6.0'
         self.verify_ssl = config.get('verify_ssl')
         self.token = config.get('api_token')
         self.config = config
