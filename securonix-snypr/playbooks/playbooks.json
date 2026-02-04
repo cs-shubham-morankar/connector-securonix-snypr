@@ -3,12 +3,12 @@
   "data": [
     {
       "@type": "WorkflowCollection",
-      "name": "Sample - Securonix SNYPR - 2.2.0",
+      "name": "Sample - Securonix SNYPR - 2.3.0",
       "description": "Sample playbooks for \"Securonix SNYPR\" connector. If you are planning to use any of the sample playbooks in your environment, ensure that you clone those playbooks and move them to a different collection, since the sample playbook collection gets deleted during connector upgrade and delete.",
       "visible": true,
-      "image": "",
+      "image": "data:image/jpeg;base64,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",
       "uuid": "e201c879-bd9b-4a41-87bf-93fcf1a490c4",
-      "id": 45,
+      "id": 64,
       "deletedAt": null,
       "importedBy": [],
       "recordTags": [],
@@ -41,7 +41,7 @@
                 "params": {
                   "query": "employeeid = \"1001\""
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "query_users",
                 "operationTitle": "Query Users",
@@ -105,8 +105,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "08fe322a-9eb0-40b7-a535-0b2f2ebe5a8f",
-          "id": 496,
+          "id": 865,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -144,7 +146,7 @@
                 "params": {
                   "incidentId": "50107"
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "get_possible_action_for_incident",
                 "operationTitle": "Get Possible Actions for Incident",
@@ -208,8 +210,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "0a588246-390c-4cb8-ab79-ba0bd0cf895b",
-          "id": 497,
+          "id": 866,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -245,7 +249,7 @@
                 "name": "Securonix SNYPR",
                 "config": "2379436e-599a-4c02-a73d-76f89cc3c834",
                 "params": [],
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "get_workflows",
                 "operationTitle": "Get Workflows",
@@ -309,8 +313,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "12941b07-69b0-4d71-864b-7ad5b8f8e2f8",
-          "id": 498,
+          "id": 867,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -352,7 +358,7 @@
                   "generationtime_to": "",
                   "generationtime_from": ""
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "custom_query",
                 "operationTitle": "Custom Query",
@@ -416,8 +422,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "2f5e4ff3-1288-4fef-94dc-58369855ee15",
-          "id": 499,
+          "id": 868,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -493,7 +501,7 @@
                   "incidentId": "100",
                   "other_fields": "{\n  \"12_Remediation-Performed\":\"Remediation Performed\"\n}"
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "take_action_on_incident",
                 "operationTitle": "Take Action on Incident",
@@ -521,8 +529,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "3d40f66a-a85b-4ece-9e1e-02eb3b0419cb",
-          "id": 500,
+          "id": 869,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -560,7 +570,7 @@
                 "params": {
                   "incidentId": "50107"
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "get_incident_status",
                 "operationTitle": "Get Incident Status",
@@ -624,8 +634,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "3f6f3276-a880-4840-842e-6e14d08c313c",
-          "id": 501,
+          "id": 870,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -664,7 +676,7 @@
                   "dateunit": "Hours",
                   "dateunitvalue": "Last 24 Hours"
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "get_top_threats",
                 "operationTitle": "Get Top Threats",
@@ -728,8 +740,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "4959fb54-1e54-49d4-9827-222cfe11e107",
-          "id": 502,
+          "id": 871,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -769,7 +783,7 @@
                   "from": "2019-07-31T18:30:00.000Z",
                   "query": "employeeid = \"1001\""
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "get_risk_history",
                 "operationTitle": "Get Risk History",
@@ -833,8 +847,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "4d1ccd06-6786-4dd3-b11e-baec9863bef3",
-          "id": 503,
+          "id": 872,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -869,7 +885,7 @@
               "arguments": {
                 "name": "Securonix SNYPR",
                 "params": [],
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "list_policies",
                 "operationTitle": "List All Policies",
@@ -933,8 +949,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "5da1fa70-a7d7-4394-9d12-11ca615702ef",
-          "id": 504,
+          "id": 873,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -972,7 +990,7 @@
                 "params": {
                   "query": "watchlistname=Recent_Hires"
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "query_watchlist",
                 "operationTitle": "Query Watchlist",
@@ -1036,8 +1054,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "6747b942-6a96-416e-86fd-81efa4653243",
-          "id": 505,
+          "id": 874,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -1073,7 +1093,7 @@
                 "name": "Securonix SNYPR",
                 "config": "da061c02e08e46c08fe0b911a0a16ee4",
                 "params": [],
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "list_users",
                 "operationTitle": "List All Users",
@@ -1137,8 +1157,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "68fa8b43-3c82-4516-a4fe-7767c13cd711",
-          "id": 506,
+          "id": 875,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -1176,7 +1198,7 @@
                 "params": {
                   "workflow": "SOCTeamReview"
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "get_workflow_default_assignee",
                 "operationTitle": "Get Workflow Default Assignee",
@@ -1240,8 +1262,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "69d71974-e81e-41dc-9323-25628d6dc278",
-          "id": 507,
+          "id": 876,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -1288,7 +1312,7 @@
                   "violationName": "AWS S3 Security Violation",
                   "datasourceName": "AWS CCM"
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "create_incident",
                 "operationTitle": "Create Incident",
@@ -1358,8 +1382,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "6f8dc7ff-171c-4958-8ab9-a96257e57891",
-          "id": 508,
+          "id": 877,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -1397,7 +1423,7 @@
                 "params": {
                   "query": "tenantname=\"partnerdemo\""
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "query_tpi",
                 "operationTitle": "Query Third Party Intelligence",
@@ -1461,8 +1487,330 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "7463a6b5-2fac-4435-ba48-1dddaf6426b0",
-          "id": 509,
+          "id": 878,
+          "owners": [],
+          "isPrivate": false,
+          "deletedAt": null,
+          "importedBy": [],
+          "recordTags": [
+            "Securonix",
+            "securonix-snypr"
+          ]
+        },
+        {
+          "@type": "Workflow",
+          "triggerLimit": null,
+          "name": "Securonix SNYPR > Close Incident",
+          "aliasName": null,
+          "tag": null,
+          "description": "Once the alert is closed on FortiSOAR close the corresponding incident on SNYPR",
+          "isActive": false,
+          "debug": false,
+          "singleRecordExecution": false,
+          "remoteExecutableFlag": false,
+          "parameters": [],
+          "synchronous": false,
+          "lastModifyDate": 1768467519,
+          "collection": "/api/3/workflow_collections/e201c879-bd9b-4a41-87bf-93fcf1a490c4",
+          "versions": [],
+          "triggerStep": "/api/3/workflow_steps/f392af38-1954-48ef-8c42-7187248d83fa",
+          "steps": [
+            {
+              "@type": "WorkflowStep",
+              "name": "Add Comment",
+              "description": null,
+              "arguments": {
+                "resource": {
+                  "type": "/api/3/picklists/ff599189-3eeb-4c86-acb0-a7915e85ac3b",
+                  "alerts": "{{vars.input.records[0]['@id']}}",
+                  "people": [],
+                  "content": "<p>Related SNYPR Incident&nbsp;<span style=\"color: rgb(230, 126, 35);\">closed</span> on {{arrow.utcnow().format(\"YYYY-MM-DD HH:mm:ss ZZ\")}}</p>",
+                  "__replace": "",
+                  "isImportant": false,
+                  "peopleUpdated": false
+                },
+                "operation": "Overwrite",
+                "collection": "/api/3/comments",
+                "__recommend": [],
+                "fieldOperation": {
+                  "recordTags": "Overwrite"
+                },
+                "step_variables": []
+              },
+              "status": null,
+              "top": "975",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/2597053c-e718-44b4-8394-4d40fe26d357",
+              "group": null,
+              "uuid": "4b7f253e-1015-4c9e-8463-f622efe029c4"
+            },
+            {
+              "@type": "WorkflowStep",
+              "name": "Build Action Parameters",
+              "description": null,
+              "arguments": {
+                "query_params": "{\"{{vars.closure_note_attr}}\":\"Closed by FortiSOAR from Alert:  {{vars.input.records[0].id}}\",\"{{vars.closure_code_attr}}\":\"{{vars.closure_reason_map.get(vars.input.records[0].closureReason.itemValue) or \"Resolved\"}}\"}"
+              },
+              "status": null,
+              "top": "705",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
+              "group": null,
+              "uuid": "a551c95d-e604-4e98-92dc-cbcc324995cd"
+            },
+            {
+              "@type": "WorkflowStep",
+              "name": "Claim Incident",
+              "description": null,
+              "arguments": {
+                "name": "Securonix SNYPR",
+                "config": "63d4b1c9-9f09-4ada-820e-c83287c873ab",
+                "params": {
+                  "actionName": "COMPLETE AND CLOSE",
+                  "incidentId": "{{vars.snypr_incident_id}}",
+                  "other_fields": "{{vars.query_params}}"
+                },
+                "version": "2.3.0",
+                "connector": "securonix-snypr",
+                "operation": "take_action_on_incident",
+                "operationTitle": "Task Action on Incident",
+                "pickFromTenant": false,
+                "step_variables": []
+              },
+              "status": null,
+              "top": "840",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671",
+              "group": null,
+              "uuid": "bdc3afdf-3d3f-4c8d-85c0-8b31e159724c"
+            },
+            {
+              "@type": "WorkflowStep",
+              "name": "Configuration",
+              "description": null,
+              "arguments": {
+                "useMockOutput": "false",
+                "snypr_incident_id": "{{vars.input.records[0].sourceId}}",
+                "closure_reason_map": "{\n\"Duplicate\":\"Duplicate\",\n\"False Positive\":\"Not an Issue\",\n\"Invalid\":\"Not an Issue\",\n\"Resolved\":\"Resolved\",\n\"Tasks Completed\":\"Resolved\"\n}"
+              },
+              "status": null,
+              "top": "165",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
+              "group": null,
+              "uuid": "8733e1b9-63b9-4f44-a9a4-4dba8226a828"
+            },
+            {
+              "@type": "WorkflowStep",
+              "name": "Get Related Violations",
+              "description": null,
+              "arguments": {
+                "name": "Securonix SNYPR",
+                "config": "63d4b1c9-9f09-4ada-820e-c83287c873ab",
+                "params": {
+                  "incidentId": "{{vars.snypr_incident_id}}"
+                },
+                "version": "2.3.0",
+                "connector": "securonix-snypr",
+                "operation": "get_possible_action_for_incident",
+                "mock_result": "{\n  \"data\": {\n    \"result\": [\n      {\n        \"status\": \"ASSIGNED\",\n        \"actionName\": \"ASSIGN\",\n        \"actionDetails\": [\n          {\n            \"title\": \"Assign Notes\",\n            \"sections\": {\n              \"attributes\": [\n                {\n                  \"required\": true,\n                  \"attribute\": \"566_Add-notes-here\",\n                  \"displayName\": \"Add notes here\",\n                  \"attributeType\": \"textarea\"\n                },\n                {\n                  \"values\": [\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"Administrators\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_BASIC_USER\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"SX_Test\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_CYBER_SUPPORT_OPERATIONS\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_CySOC_Level_3\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_Threat_Analytics_Developers\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_Threat_Analytics_Manager\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_CONTENT_DESIGNER\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_THREAT_ANALYTICS_DEVELOPER_LEAD\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"SCNX_OPS\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"SCNX_RIN\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"Test_RIN\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_ASI_API\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"Report Mgt Group\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_CYSOC_L1_L2\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_TENANT_API_BTDEV\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"SX_IM_Test\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_INCIDENT_MANAGEMENT\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_CUST_BTDEV\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_AUTH_MANAGER_API\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_SPOTTER_USER\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_Threat_Analytics_Manager_Dev\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_OPSVIEW_API\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_PORTFOLIO\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_CANARY_API_GROUP_TEST\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_POLICY_API\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_XSOAR_BTDV_API\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_WILMA_API\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_SEO\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_TEST_API\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_CONTENT_DESIGNER_NO_TPI\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_FSOAR_BTDV_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC985844\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"alippert@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ksharma@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rarsekar@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"neeraj.joshi@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ayarra@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sjaiswal@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"skgandreti@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"aiyer@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"cnguyen@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"dgunasekaran@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"tedinger@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ssingh@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ldarren@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"mSanthiraj@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ddas@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rnamdeo@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"lsuhas@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"pmachale@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"asr@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"gskumar@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"jlavanya@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"kashish@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"mchougule@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"muneshkumar@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"njames@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rtripathi@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"shagarwal@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"smanimohan@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ssiddhanth@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"aadharsh@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"acoumar@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"asapkal@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"dpoojari@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"mgupta@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"msarwari@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"mskhan@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"prai@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"prajesh@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rvasan@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"schakraborthy@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"schauhan@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"shiremath@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"smaji@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"smohanty@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"spoorthi@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sswathik@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"vkumar@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"adityac@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ajayan@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"Test_RIN_Access\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC989168\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"as@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC073830\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC199156\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC904876\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"GD801698\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC172179\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC989347\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ASI_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"replowpriv\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"insightusr1\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC970279\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"BT_BTDEV_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"BTDEV_ASI_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC172914\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"kcarntest\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"SIVAPRASADR@BTVM.COM\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"SIVAPRASADR@VIRTUSA.COM\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"test\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"CWilsonBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"BT_OPSVIEW_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"monicas@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ShekharSaurabhBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"SwasthikShettyBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"skotian@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"SannathkumarPolicepatilBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"DeekshithaPoojariBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"DelishaVinitaDSouzaBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ddsouza@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"MohammedSaleemKhanBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ShreeshaKotianBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"SpoorthiANBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"BT_CANARY_API_USER_TEST\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sbachimanchi@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"vkumarhv@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC171155\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"BT_XSOAR_BTDV_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"reenisha@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ashaikh@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"pbadiger@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rbhargavi@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"anirbansrkr@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rajankumar@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sbashaveni@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ksishodia@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sshantanu@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC967621\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC990063\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"BT_WILMA_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ramesh@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"pkeerthipati@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"asatti@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC990314\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"BT_POLICY_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"pshyamal@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC172551\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"AP608506\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"TT608884\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC987276\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"andy.mcleod@bt.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"DL609226\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC973083\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"syeds.ali@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"SCNX-RIN-USER\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sshaaradhan@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"Canary_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC567768\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC171574\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"dsingh@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"Test_INC-489473\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"vganveer@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"shebbar@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC561045\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"scnx_monitoring\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC979107\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"amaddu@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"llepe@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"amata@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rsalariya@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"swalke@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sputhran@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"dkumar@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"BT_FSOAR_BTDV_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"svc_policy_engine\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"admin\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sx_int_api_user\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sx_ext_api_user\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ResponseServiceManualUser\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"a2t1cbtuadmin\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"lasleson@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"spattanayak@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"reporttest\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"pjha@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"smarkapurapu@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"tshivashankarappa@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rsidaraddi@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sgautam@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"aremanan\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"bryadav@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"wrighr\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC177291\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC199322\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"jmillton@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"knathani\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"kcarnahan@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"hbalakrishna@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"elod.makkai@bt.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"NarayanaBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"EGujalwar\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"SnehaHaswani\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"abhilash@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"atakwale@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"JohnBathgateBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ssuma@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"Roy Finch Dev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"RBainbridge_Dev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rrao@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"owen\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rchintalapudi@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC989882\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"Nigel\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC968142\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ResponseServiceUser\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"SoarServiceUser\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC171573\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"aawasthi\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC172914\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC974998\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"mregar@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"nraina@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"SumitG\"\n                    }\n                  ],\n                  \"required\": true,\n                  \"attribute\": \"assigntouserid\",\n                  \"displayName\": \"Assign \",\n                  \"attributeType\": \"assignto\"\n                }\n              ],\n              \"sectionName\": \"Assign\"\n            }\n          }\n        ],\n        \"workflowAdditionalInformation\": \"          \"\n      },\n      {\n        \"status\": \"COMPLETED\",\n        \"actionName\": \"COMPLETE AND CLOSE\",\n        \"actionDetails\": [\n          {\n            \"title\": \"CLOSE Notes\",\n            \"sections\": {\n              \"attributes\": [\n                {\n                  \"values\": [\n                    \"Resolved\",\n                    \"Unresolved\",\n                    \"Duplicate\",\n                    \"Not an Issue\"\n                  ],\n                  \"required\": true,\n                  \"attribute\": \"580_Closure-Code\",\n                  \"displayName\": \"Closure Code\",\n                  \"attributeType\": \"dropdown\"\n                },\n                {\n                  \"required\": true,\n                  \"attribute\": \"581_Add-notes-here\",\n                  \"displayName\": \"Add notes here\",\n                  \"attributeType\": \"textarea\"\n                },\n                {\n                  \"required\": false,\n                  \"displayName\": \"Add attachments here - 1\",\n                  \"attributeType\": \"file\"\n                },\n                {\n                  \"required\": false,\n                  \"displayName\": \"Add attachments here - 2\",\n                  \"attributeType\": \"file\"\n                }\n              ],\n              \"sectionName\": \"Close notes\"\n            }\n          }\n        ],\n        \"workflowAdditionalInformation\": \"                  \"\n      }\n    ],\n    \"status\": \"OK\",\n    \"messages\": [\n      \"Get possible actions for incident ID [2180351302], incident status [CLAIMED]\"\n    ]\n  },\n  \"status\": \"Success\",\n  \"message\": \"\",\n  \"operation\": null,\n  \"execution_time\": \"3 seconds 162 ms\"\n}",
+                "operationTitle": "Get Possible Actions for Incident",
+                "pickFromTenant": false,
+                "step_variables": []
+              },
+              "status": null,
+              "top": "300",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671",
+              "group": null,
+              "uuid": "e0e39962-af07-4992-ba3e-1ccd810ada1f"
+            },
+            {
+              "@type": "WorkflowStep",
+              "name": "Parse Action Attribute",
+              "description": null,
+              "arguments": {
+                "closure_code_attr": "{{vars.close_action.sections.attributes|yaql('$.where($.displayName = \"Closure Code\").first().attribute')}}",
+                "closure_note_attr": "{{vars.close_action.sections.attributes|yaql('$.where($.displayName = \"Add notes here\").first().attribute')}}"
+              },
+              "status": null,
+              "top": "570",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
+              "group": null,
+              "uuid": "ed053524-1092-4e33-9b5f-f0d91953d766"
+            },
+            {
+              "@type": "WorkflowStep",
+              "name": "Parse Action Attributes",
+              "description": null,
+              "arguments": {
+                "close_action": "{{vars.steps.Get_Related_Violations.data.result|yaql('$.where($.actionName = \"COMPLETE AND CLOSE\").first().actionDetails.first()')}}"
+              },
+              "status": null,
+              "top": "435",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
+              "group": null,
+              "uuid": "b55212e4-a09d-4052-90c9-aa5e1897a680"
+            },
+            {
+              "@type": "WorkflowStep",
+              "name": "Start",
+              "description": null,
+              "arguments": {
+                "resource": "alerts",
+                "resources": [
+                  "alerts"
+                ],
+                "__triggerLimit": true,
+                "step_variables": {
+                  "input": {
+                    "params": [],
+                    "records": [
+                      "{{vars.input.records[0]}}"
+                    ]
+                  }
+                },
+                "triggerOnSource": true,
+                "fieldbasedtrigger": {
+                  "sort": [],
+                  "limit": 30,
+                  "logic": "AND",
+                  "filters": [
+                    {
+                      "type": "primitive",
+                      "field": "source",
+                      "value": "Securonix SNYPR",
+                      "operator": "eq",
+                      "_operator": "eq"
+                    },
+                    {
+                      "type": "object",
+                      "field": "status",
+                      "value": "/api/3/picklists/fac53e73-8d16-4189-98d5-95fbd1555232",
+                      "_value": {
+                        "@id": "/api/3/picklists/fac53e73-8d16-4189-98d5-95fbd1555232",
+                        "display": "Closed",
+                        "itemValue": "Closed"
+                      },
+                      "operator": "eq"
+                    },
+                    {
+                      "type": "object",
+                      "field": "status",
+                      "value": "",
+                      "_value": {
+                        "@id": "",
+                        "display": "",
+                        "itemValue": ""
+                      },
+                      "operator": "changed"
+                    },
+                    {
+                      "type": "object",
+                      "field": "closureReason",
+                      "value": "false",
+                      "_value": {
+                        "@id": "false",
+                        "display": "",
+                        "itemValue": ""
+                      },
+                      "operator": "isnull"
+                    }
+                  ]
+                },
+                "triggerOnReplicate": false
+              },
+              "status": null,
+              "top": "30",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/9300bf69-5063-486d-b3a6-47eb9da24872",
+              "group": null,
+              "uuid": "f392af38-1954-48ef-8c42-7187248d83fa"
+            }
+          ],
+          "routes": [
+            {
+              "@type": "WorkflowRoute",
+              "name": "Build Action Parameters -> Claim Incident",
+              "targetStep": "/api/3/workflow_steps/bdc3afdf-3d3f-4c8d-85c0-8b31e159724c",
+              "sourceStep": "/api/3/workflow_steps/a551c95d-e604-4e98-92dc-cbcc324995cd",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "d9554f81-58e6-42d0-aee8-e7264bec99d3"
+            },
+            {
+              "@type": "WorkflowRoute",
+              "name": "Claim Incident -> Add Comment",
+              "targetStep": "/api/3/workflow_steps/4b7f253e-1015-4c9e-8463-f622efe029c4",
+              "sourceStep": "/api/3/workflow_steps/bdc3afdf-3d3f-4c8d-85c0-8b31e159724c",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "f6af28b1-abe6-4e52-865b-e6006098dc62"
+            },
+            {
+              "@type": "WorkflowRoute",
+              "name": "Configuration -> Get Related Violations",
+              "targetStep": "/api/3/workflow_steps/e0e39962-af07-4992-ba3e-1ccd810ada1f",
+              "sourceStep": "/api/3/workflow_steps/8733e1b9-63b9-4f44-a9a4-4dba8226a828",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "4bcb7f3e-91bb-44c9-ad7e-c781a443cc9a"
+            },
+            {
+              "@type": "WorkflowRoute",
+              "name": "Get Related Violations -> Parse Action Attributes",
+              "targetStep": "/api/3/workflow_steps/b55212e4-a09d-4052-90c9-aa5e1897a680",
+              "sourceStep": "/api/3/workflow_steps/e0e39962-af07-4992-ba3e-1ccd810ada1f",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "10eb6b3f-c5d9-4662-b2a7-01a4d8a7652a"
+            },
+            {
+              "@type": "WorkflowRoute",
+              "name": "Parse Action Attribute -> Build Action Parameters",
+              "targetStep": "/api/3/workflow_steps/a551c95d-e604-4e98-92dc-cbcc324995cd",
+              "sourceStep": "/api/3/workflow_steps/ed053524-1092-4e33-9b5f-f0d91953d766",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "0ebd109d-6019-42f6-a14f-8dfafdd6cd72"
+            },
+            {
+              "@type": "WorkflowRoute",
+              "name": "Parse Action Attributes -> Parse Action Attribute",
+              "targetStep": "/api/3/workflow_steps/ed053524-1092-4e33-9b5f-f0d91953d766",
+              "sourceStep": "/api/3/workflow_steps/b55212e4-a09d-4052-90c9-aa5e1897a680",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "6810f8c2-ae2d-48dd-8b5a-f97934e1ff3e"
+            },
+            {
+              "@type": "WorkflowRoute",
+              "name": "Start -> Configuration",
+              "targetStep": "/api/3/workflow_steps/8733e1b9-63b9-4f44-a9a4-4dba8226a828",
+              "sourceStep": "/api/3/workflow_steps/f392af38-1954-48ef-8c42-7187248d83fa",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "f6159569-bb17-4218-b01a-6969f2e55d88"
+            }
+          ],
+          "groups": [],
+          "priority": "/api/3/picklists/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
+          "uuid": "7ef9f98b-def0-4d9c-9b24-c239253ac7b6",
+          "id": 896,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -1503,7 +1851,7 @@
                   "dateunit": "Hours",
                   "dateunitvalue": "Last 24 Hours"
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "get_top_violators",
                 "operationTitle": "Get Top Violators",
@@ -1567,13 +1915,250 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "872d5918-9431-4016-a864-4b5a6ca57bfa",
-          "id": 510,
+          "id": 879,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
           "importedBy": [],
           "recordTags": [
+            "Securonix",
+            "securonix-snypr"
+          ]
+        },
+        {
+          "@type": "Workflow",
+          "triggerLimit": null,
+          "name": "Securonix SNYPR > Fetch Associated Events",
+          "aliasName": null,
+          "tag": null,
+          "description": "Fetch and link related violations from SNYPR",
+          "isActive": false,
+          "debug": false,
+          "singleRecordExecution": false,
+          "remoteExecutableFlag": false,
+          "parameters": [],
+          "synchronous": false,
+          "lastModifyDate": 1768461281,
+          "collection": "/api/3/workflow_collections/e201c879-bd9b-4a41-87bf-93fcf1a490c4",
+          "versions": [],
+          "triggerStep": "/api/3/workflow_steps/cb78f433-d2db-4414-9eee-c56832b60e65",
+          "steps": [
+            {
+              "@type": "WorkflowStep",
+              "name": "Configuration",
+              "description": null,
+              "arguments": {
+                "query": "{{vars.input.records[0].rule}}",
+                "_end_date": "{{(vars.input.records[0].rule|regex_findall('\\d{2}/\\d{2}/\\d{4}\\s+\\d{2}:\\d{2}:\\d{2}'))[1] }}",
+                "_start_date": "{{(vars.input.records[0].rule|regex_findall('\\d{2}/\\d{2}/\\d{4}\\s+\\d{2}:\\d{2}:\\d{2}'))[0] }}",
+                "snypr_incident_id": "{{vars.input.records[0].sourceId}}"
+              },
+              "status": null,
+              "top": "165",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
+              "group": null,
+              "uuid": "d7265cb8-c110-4a67-a901-276bc8462468"
+            },
+            {
+              "@type": "WorkflowStep",
+              "name": "Create Events",
+              "description": null,
+              "arguments": {
+                "message": {
+                  "tags": [],
+                  "type": "/api/3/picklists/ff599189-3eeb-4c86-acb0-a7915e85ac3b",
+                  "tenant": "/api/3/tenants/27519f5b-e245-4e94-a7b7-de41641cff05",
+                  "thread": false,
+                  "content": "<p>SNYPR <span style=\"color: rgb(230, 126, 35);\">Events</span>&nbsp;fetched and linked</p>",
+                  "records": "{{vars.input.records[0]['@id']}}"
+                },
+                "for_each": {
+                  "item": "{{vars.steps.Get_Related_Violations.data.events}}",
+                  "__bulk": true,
+                  "parallel": false,
+                  "condition": "",
+                  "batch_size": 100
+                },
+                "resource": {
+                  "name": "{{vars.item.alertid}}",
+                  "alerts": "{{vars.input.records[0]['@id']}}",
+                  "source": "Securonix SNYPR",
+                  "tenant": "/api/3/tenants/27519f5b-e245-4e94-a7b7-de41641cff05",
+                  "sourceId": "{{vars.item.eventid}}-{{vars.item.starttime}}",
+                  "__replace": "",
+                  "reporterIP": "{{vars.item.deviceaddress}}",
+                  "searchName": false,
+                  "description": "{{vars.item.message}}",
+                  "rawEventLog": "{{vars.item|toJSON}}",
+                  "searchReporterIP": false
+                },
+                "operation": "Overwrite",
+                "collection": "/api/3/events",
+                "__recommend": [],
+                "fieldOperation": {
+                  "recordTags": "Overwrite"
+                },
+                "step_variables": []
+              },
+              "status": null,
+              "top": "570",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/2597053c-e718-44b4-8394-4d40fe26d357",
+              "group": null,
+              "uuid": "8603f082-1602-421b-a7e7-742a01d8bd31"
+            },
+            {
+              "@type": "WorkflowStep",
+              "name": "Get Related Violations",
+              "description": null,
+              "arguments": {
+                "name": "Securonix SNYPR",
+                "config": "63d4b1c9-9f09-4ada-820e-c83287c873ab",
+                "params": {
+                  "query": "{{vars.query}}",
+                  "eventtime_to": "{{vars.end_date}}",
+                  "eventtime_from": "{{vars.start_date}}",
+                  "generationtime_to": "{{vars.end_date}}",
+                  "generationtime_from": "{{vars.start_date}}"
+                },
+                "version": "2.3.0",
+                "connector": "securonix-snypr",
+                "operation": "custom_query",
+                "operationTitle": "Custom Query",
+                "pickFromTenant": false,
+                "step_variables": []
+              },
+              "status": null,
+              "top": "435",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671",
+              "group": null,
+              "uuid": "e7475588-7715-41d3-95ef-f9d002210f82"
+            },
+            {
+              "@type": "WorkflowStep",
+              "name": "Parse Query Attributes",
+              "description": null,
+              "arguments": {
+                "end_date": "{{arrow.get(vars._end_date,\"MM/DD/YYYY HH:mm:ss\").format(\"YYYY-MM-DDTHH:mm:ss.SS\")}}Z",
+                "start_date": "{{arrow.get(vars._start_date,\"MM/DD/YYYY HH:mm:ss\").shift(hours=-1).format(\"YYYY-MM-DDTHH:mm:ss.SS\")}}Z"
+              },
+              "status": null,
+              "top": "300",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
+              "group": null,
+              "uuid": "68efe343-4dd3-4103-a28c-8311670577a1"
+            },
+            {
+              "@type": "WorkflowStep",
+              "name": "Start",
+              "description": null,
+              "arguments": {
+                "resource": "alerts",
+                "resources": [
+                  "alerts"
+                ],
+                "__triggerLimit": true,
+                "step_variables": {
+                  "input": {
+                    "params": [],
+                    "records": [
+                      "{{vars.input.records[0]}}"
+                    ]
+                  }
+                },
+                "triggerOnSource": true,
+                "fieldbasedtrigger": {
+                  "sort": [],
+                  "limit": 30,
+                  "logic": "AND",
+                  "filters": [
+                    {
+                      "type": "primitive",
+                      "field": "source",
+                      "value": "Securonix SNYPR",
+                      "operator": "eq",
+                      "_operator": "eq"
+                    },
+                    {
+                      "type": "primitive",
+                      "field": "sourceId",
+                      "value": "false",
+                      "operator": "isnull",
+                      "_operator": "isnull"
+                    }
+                  ]
+                },
+                "triggerOnReplicate": false
+              },
+              "status": null,
+              "top": "30",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/ea155646-3821-4542-9702-b246da430a8d",
+              "group": null,
+              "uuid": "cb78f433-d2db-4414-9eee-c56832b60e65"
+            }
+          ],
+          "routes": [
+            {
+              "@type": "WorkflowRoute",
+              "name": "Configuration -> Parse Query Attributes",
+              "targetStep": "/api/3/workflow_steps/68efe343-4dd3-4103-a28c-8311670577a1",
+              "sourceStep": "/api/3/workflow_steps/d7265cb8-c110-4a67-a901-276bc8462468",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "3d790fec-f7fb-4bc9-9633-9f8ef9b1acba"
+            },
+            {
+              "@type": "WorkflowRoute",
+              "name": "Get Related Violations -> Create Events",
+              "targetStep": "/api/3/workflow_steps/8603f082-1602-421b-a7e7-742a01d8bd31",
+              "sourceStep": "/api/3/workflow_steps/e7475588-7715-41d3-95ef-f9d002210f82",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "78f6f4e3-b102-47a5-8053-7dc6b3187d3a"
+            },
+            {
+              "@type": "WorkflowRoute",
+              "name": "Parse Query Attributes -> Get Related Violations",
+              "targetStep": "/api/3/workflow_steps/e7475588-7715-41d3-95ef-f9d002210f82",
+              "sourceStep": "/api/3/workflow_steps/68efe343-4dd3-4103-a28c-8311670577a1",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "b028a90a-27e4-40d9-89e4-dad6e6fb7bfc"
+            },
+            {
+              "@type": "WorkflowRoute",
+              "name": "Start -> Configuration",
+              "targetStep": "/api/3/workflow_steps/d7265cb8-c110-4a67-a901-276bc8462468",
+              "sourceStep": "/api/3/workflow_steps/cb78f433-d2db-4414-9eee-c56832b60e65",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "3eacf9b3-8d1c-4dd9-9ff9-cffa40dff683"
+            }
+          ],
+          "groups": [],
+          "priority": "/api/3/picklists/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
+          "uuid": "894f19b2-6b55-4258-81d9-5a6b17a523bf",
+          "id": 893,
+          "owners": [],
+          "isPrivate": false,
+          "deletedAt": null,
+          "importedBy": [],
+          "recordTags": [
+            "dataingestion",
+            "ingest",
             "Securonix",
             "securonix-snypr"
           ]
@@ -1611,7 +2196,7 @@
                   "status": "Open",
                   "rangeType": "Opened"
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "list_incidents",
                 "operationTitle": "List Incidents",
@@ -1675,8 +2260,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "8a135be8-27c6-4705-a2b1-261cd920d075",
-          "id": 511,
+          "id": 880,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -1716,7 +2303,7 @@
                   "generationtime_to": "2019-08-07T18:30:00.000Z",
                   "generationtime_from": "2019-07-31T18:30:00.000Z"
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "query_violations",
                 "operationTitle": "Query Violations",
@@ -1780,8 +2367,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "8b1d583e-ea61-4a15-9109-4ee259d3e45b",
-          "id": 512,
+          "id": 881,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -1820,7 +2409,7 @@
                   "dateunit": "Hours",
                   "dateunitvalue": "Last 72 Hours"
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "get_top_violations",
                 "operationTitle": "Get Top Violations",
@@ -1884,8 +2473,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "8f1dd25c-b395-48e5-8880-fedd9e24c477",
-          "id": 513,
+          "id": 882,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -1925,7 +2516,7 @@
                   "from": "2019-08-01T13:11:10.749Z",
                   "query": "employeeid = \"1001\" and policyname=\"Local accounts created on windows\""
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "get_risk_score",
                 "operationTitle": "Get Risk Score",
@@ -1989,8 +2580,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "a4eb2504-24e6-4343-b272-195e45cf38be",
-          "id": 514,
+          "id": 883,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -2029,7 +2622,7 @@
                   "comment": "Comment from CyOPs connector",
                   "incidentId": "10029"
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "add_comment",
                 "operationTitle": "Add Comment",
@@ -2093,8 +2686,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "a5c5f705-ecc0-4e0c-bc18-931721ba2f0b",
-          "id": 515,
+          "id": 884,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -2129,7 +2724,7 @@
               "arguments": {
                 "name": "Securonix SNYPR",
                 "params": [],
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "list_resource_groups",
                 "operationTitle": "List All Resource Groups",
@@ -2193,8 +2788,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "aa14809f-03fe-4012-8387-b62c70813486",
-          "id": 516,
+          "id": 885,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -2229,7 +2826,7 @@
               "arguments": {
                 "name": "Securonix SNYPR",
                 "params": [],
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "list_peer_groups",
                 "operationTitle": "List All Peer Groups",
@@ -2293,8 +2890,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "b5597930-2f1d-4516-a1ff-36b7286e2db5",
-          "id": 517,
+          "id": 886,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -2332,7 +2931,7 @@
                 "params": {
                   "incidentId": "25"
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "get_incident_details",
                 "operationTitle": "Get Incident Details",
@@ -2396,8 +2995,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "b5a62b16-d432-4eb8-ab4d-081bee846ad4",
-          "id": 518,
+          "id": 887,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -2435,7 +3036,7 @@
                 "params": {
                   "incidentId": "50107"
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "get_incident_workflow",
                 "operationTitle": "Get Incident Workflow",
@@ -2499,8 +3100,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "b9d09ce3-14ed-4ede-8085-8ebdb60db4b8",
-          "id": 519,
+          "id": 888,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -2539,7 +3142,7 @@
                   "actionName": "CLAIM",
                   "incidentId": "10029"
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "check_task_on_incident",
                 "operationTitle": "Check Task on Incident",
@@ -2603,8 +3206,263 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "c1261d59-a76f-494e-a698-cf64c52c3348",
-          "id": 520,
+          "id": 889,
+          "owners": [],
+          "isPrivate": false,
+          "deletedAt": null,
+          "importedBy": [],
+          "recordTags": [
+            "Securonix",
+            "securonix-snypr"
+          ]
+        },
+        {
+          "@type": "Workflow",
+          "triggerLimit": null,
+          "name": "Securonix SNYPR > Claim Incident",
+          "aliasName": null,
+          "tag": null,
+          "description": "Claim incident on SNYPR once ingested in FortiSOAR and reference the new Alert ID",
+          "isActive": false,
+          "debug": false,
+          "singleRecordExecution": false,
+          "remoteExecutableFlag": false,
+          "parameters": [],
+          "synchronous": false,
+          "lastModifyDate": 1768463914,
+          "collection": "/api/3/workflow_collections/e201c879-bd9b-4a41-87bf-93fcf1a490c4",
+          "versions": [],
+          "triggerStep": "/api/3/workflow_steps/6193cfd3-7cc6-4f8b-a27f-dee9e0b75e92",
+          "steps": [
+            {
+              "@type": "WorkflowStep",
+              "name": "Build Action Parameters",
+              "description": null,
+              "arguments": {
+                "query_params": "{\"{{vars.note_attribute.attribute}}\":\"Claimed by FortiSOAR as Alert:  {{vars.input.records[0].id}}\"}"
+              },
+              "status": null,
+              "top": "705",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
+              "group": null,
+              "uuid": "49e6c959-51bb-46f1-8f8c-86e03e4ad60e"
+            },
+            {
+              "@type": "WorkflowStep",
+              "name": "Claim Incident",
+              "description": null,
+              "arguments": {
+                "name": "Securonix SNYPR",
+                "config": "63d4b1c9-9f09-4ada-820e-c83287c873ab",
+                "params": {
+                  "actionName": "CLAIM",
+                  "incidentId": "{{vars.snypr_incident_id}}",
+                  "other_fields": "{{vars.query_params}}"
+                },
+                "version": "2.3.0",
+                "connector": "securonix-snypr",
+                "operation": "take_action_on_incident",
+                "operationTitle": "Task Action on Incident",
+                "pickFromTenant": false,
+                "step_variables": []
+              },
+              "status": null,
+              "top": "840",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671",
+              "group": null,
+              "uuid": "315adcb4-06bf-4a97-9f24-592ce4b35249"
+            },
+            {
+              "@type": "WorkflowStep",
+              "name": "Configuration",
+              "description": null,
+              "arguments": {
+                "useMockOutput": "true",
+                "snypr_incident_id": "{{vars.input.records[0].sourceId}}"
+              },
+              "status": null,
+              "top": "165",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
+              "group": null,
+              "uuid": "c3b15bfd-db95-4ba0-b005-4ac59d67b8aa"
+            },
+            {
+              "@type": "WorkflowStep",
+              "name": "Get Related Violations",
+              "description": null,
+              "arguments": {
+                "name": "Securonix SNYPR",
+                "config": "63d4b1c9-9f09-4ada-820e-c83287c873ab",
+                "params": {
+                  "incidentId": "{{vars.snypr_incident_id}}"
+                },
+                "version": "2.3.0",
+                "connector": "securonix-snypr",
+                "operation": "get_possible_action_for_incident",
+                "mock_result": "{\n  \"data\": {\n    \"result\": [\n      {\n        \"status\": \"CLAIMED\",\n        \"actionName\": \"CLAIM\",\n        \"actionDetails\": [\n          {\n            \"title\": \"CLAIM Notes\",\n            \"sections\": {\n              \"attributes\": [\n                {\n                  \"required\": true,\n                  \"attribute\": \"565_Add-notes-here\",\n                  \"displayName\": \"Add notes here\",\n                  \"attributeType\": \"textarea\"\n                }\n              ],\n              \"sectionName\": \"notes\"\n            }\n          }\n        ],\n        \"workflowAdditionalInformation\": \"      \"\n      },\n      {\n        \"status\": \"ASSIGNED\",\n        \"actionName\": \"ASSIGN\",\n        \"actionDetails\": [\n          {\n            \"title\": \"Assign Notes\",\n            \"sections\": {\n              \"attributes\": [\n                {\n                  \"required\": true,\n                  \"attribute\": \"566_Add-notes-here\",\n                  \"displayName\": \"Add notes here\",\n                  \"attributeType\": \"textarea\"\n                },\n                {\n                  \"values\": [\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"Administrators\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_BASIC_USER\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"SX_Test\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_CYBER_SUPPORT_OPERATIONS\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_CySOC_Level_3\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_Threat_Analytics_Developers\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_Threat_Analytics_Manager\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_CONTENT_DESIGNER\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_THREAT_ANALYTICS_DEVELOPER_LEAD\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"SCNX_OPS\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"SCNX_RIN\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"Test_RIN\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_ASI_API\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"Report Mgt Group\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_CYSOC_L1_L2\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_TENANT_API_BTDEV\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"SX_IM_Test\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_INCIDENT_MANAGEMENT\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_CUST_BTDEV\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_AUTH_MANAGER_API\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_SPOTTER_USER\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_Threat_Analytics_Manager_Dev\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_OPSVIEW_API\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_PORTFOLIO\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_CANARY_API_GROUP_TEST\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_POLICY_API\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_XSOAR_BTDV_API\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_WILMA_API\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_SEO\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_TEST_API\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_CONTENT_DESIGNER_NO_TPI\"\n                    },\n                    {\n                      \"key\": \"GROUP\",\n                      \"value\": \"BT_FSOAR_BTDV_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC985844\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"alippert@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ksharma@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rarsekar@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"neeraj.joshi@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ayarra@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sjaiswal@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"skgandreti@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"aiyer@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"cnguyen@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"dgunasekaran@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"tedinger@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ssingh@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ldarren@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"mSanthiraj@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ddas@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rnamdeo@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"lsuhas@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"pmachale@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"asr@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"gskumar@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"jlavanya@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"kashish@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"mchougule@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"muneshkumar@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"njames@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rtripathi@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"shagarwal@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"smanimohan@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ssiddhanth@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"aadharsh@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"acoumar@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"asapkal@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"dpoojari@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"mgupta@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"msarwari@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"mskhan@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"prai@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"prajesh@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rvasan@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"schakraborthy@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"schauhan@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"shiremath@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"smaji@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"smohanty@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"spoorthi@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sswathik@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"vkumar@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"adityac@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ajayan@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"Test_RIN_Access\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC989168\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"as@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC073830\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC199156\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC904876\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"GD801698\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC172179\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC989347\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ASI_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"replowpriv\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"insightusr1\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC970279\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"BT_BTDEV_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"BTDEV_ASI_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC172914\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"kcarntest\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"SIVAPRASADR@BTVM.COM\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"SIVAPRASADR@VIRTUSA.COM\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"test\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"CWilsonBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"BT_OPSVIEW_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"monicas@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ShekharSaurabhBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"SwasthikShettyBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"skotian@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"SannathkumarPolicepatilBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"DeekshithaPoojariBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"DelishaVinitaDSouzaBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ddsouza@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"MohammedSaleemKhanBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ShreeshaKotianBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"SpoorthiANBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"BT_CANARY_API_USER_TEST\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sbachimanchi@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"vkumarhv@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC171155\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"BT_XSOAR_BTDV_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"reenisha@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ashaikh@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"pbadiger@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rbhargavi@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"anirbansrkr@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rajankumar@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sbashaveni@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ksishodia@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sshantanu@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC967621\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC990063\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"BT_WILMA_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ramesh@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"pkeerthipati@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"asatti@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC990314\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"BT_POLICY_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"pshyamal@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC172551\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"AP608506\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"TT608884\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC987276\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"andy.mcleod@bt.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"DL609226\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC973083\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"syeds.ali@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"SCNX-RIN-USER\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sshaaradhan@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"Canary_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC567768\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC171574\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"dsingh@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"Test_INC-489473\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"vganveer@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"shebbar@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC561045\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"scnx_monitoring\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC979107\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"amaddu@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"llepe@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"amata@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rsalariya@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"swalke@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sputhran@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"dkumar@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"BT_FSOAR_BTDV_API\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"svc_policy_engine\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"admin\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sx_int_api_user\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sx_ext_api_user\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ResponseServiceManualUser\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"a2t1cbtuadmin\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"lasleson@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"spattanayak@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"reporttest\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"pjha@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"smarkapurapu@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"tshivashankarappa@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rsidaraddi@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"sgautam@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"aremanan\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"bryadav@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"wrighr\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC177291\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC199322\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"jmillton@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"knathani\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"kcarnahan@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"hbalakrishna@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"elod.makkai@bt.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"NarayanaBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"EGujalwar\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"SnehaHaswani\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"abhilash@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"atakwale@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"JohnBathgateBTDev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ssuma@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"Roy Finch Dev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"RBainbridge_Dev\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rrao@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"owen\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"rchintalapudi@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC989882\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"Nigel\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC968142\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"ResponseServiceUser\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"SoarServiceUser\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC171573\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"aawasthi\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC172914\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"PC974998\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"mregar@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"nraina@securonix.com\"\n                    },\n                    {\n                      \"key\": \"USER\",\n                      \"value\": \"SumitG\"\n                    }\n                  ],\n                  \"required\": true,\n                  \"attribute\": \"assigntouserid\",\n                  \"displayName\": \"Assign \",\n                  \"attributeType\": \"assignto\"\n                }\n              ],\n              \"sectionName\": \"Assign\"\n            }\n          }\n        ],\n        \"workflowAdditionalInformation\": \"          \"\n      },\n      {\n        \"status\": \"CLOSED\",\n        \"actionName\": \"CLOSE\",\n        \"actionDetails\": [\n          {\n            \"title\": \"CLOSE Notes\",\n            \"sections\": {\n              \"attributes\": [\n                {\n                  \"values\": [\n                    \"Resolved\",\n                    \"Unresolved\",\n                    \"Duplicate\",\n                    \"Not an Issue\"\n                  ],\n                  \"required\": true,\n                  \"attribute\": \"580_Closure-Code\",\n                  \"displayName\": \"Closure Code\",\n                  \"attributeType\": \"dropdown\"\n                },\n                {\n                  \"required\": true,\n                  \"attribute\": \"581_Add-notes-here\",\n                  \"displayName\": \"Add notes here\",\n                  \"attributeType\": \"textarea\"\n                },\n                {\n                  \"required\": false,\n                  \"displayName\": \"Add attachments here - 1\",\n                  \"attributeType\": \"file\"\n                },\n                {\n                  \"required\": false,\n                  \"displayName\": \"Add attachments here - 2\",\n                  \"attributeType\": \"file\"\n                }\n              ],\n              \"sectionName\": \"Close notes\"\n            }\n          }\n        ],\n        \"workflowAdditionalInformation\": \" Accept risk as in close for FP or non concern etc , this can be claim, assign or complete and close \"\n      }\n    ],\n    \"status\": \"OK\",\n    \"messages\": [\n      \"Get possible actions for incident ID [2180351302], incident status [Open]\"\n    ]\n  },\n  \"status\": \"Success\",\n  \"message\": \"\",\n  \"operation\": null,\n  \"execution_time\": \"3 seconds 56 ms\"\n}",
+                "operationTitle": "Get Possible Actions for Incident",
+                "pickFromTenant": false,
+                "step_variables": []
+              },
+              "status": null,
+              "top": "300",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671",
+              "group": null,
+              "uuid": "31c2bb28-967d-43b0-a069-ae4816815a73"
+            },
+            {
+              "@type": "WorkflowStep",
+              "name": "Parse Action Attribute",
+              "description": null,
+              "arguments": {
+                "note_attribute": "{{vars.claim_action.sections.attributes|yaql('$.where($.displayName = \"Add notes here\").first()')}}"
+              },
+              "status": null,
+              "top": "570",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
+              "group": null,
+              "uuid": "c37ebc37-9133-471e-8f97-0fae9cae93fe"
+            },
+            {
+              "@type": "WorkflowStep",
+              "name": "Parse Action Attributes",
+              "description": null,
+              "arguments": {
+                "claim_action": "{{vars.steps.Get_Related_Violations.data.result|yaql('$.where($.actionName = \"CLAIM\").first().actionDetails.first()')}}"
+              },
+              "status": null,
+              "top": "435",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
+              "group": null,
+              "uuid": "3a02ab26-9f60-491a-b19a-7a04f0b4a466"
+            },
+            {
+              "@type": "WorkflowStep",
+              "name": "Start",
+              "description": null,
+              "arguments": {
+                "resource": "alerts",
+                "resources": [
+                  "alerts"
+                ],
+                "__triggerLimit": true,
+                "step_variables": {
+                  "input": {
+                    "params": [],
+                    "records": [
+                      "{{vars.input.records[0]}}"
+                    ]
+                  }
+                },
+                "triggerOnSource": true,
+                "fieldbasedtrigger": {
+                  "sort": [],
+                  "limit": 30,
+                  "logic": "AND",
+                  "filters": [
+                    {
+                      "type": "primitive",
+                      "field": "source",
+                      "value": "Securonix SNYPR",
+                      "operator": "eq",
+                      "_operator": "eq"
+                    },
+                    {
+                      "type": "primitive",
+                      "field": "sourceId",
+                      "value": "false",
+                      "operator": "isnull",
+                      "_operator": "isnull"
+                    }
+                  ]
+                },
+                "triggerOnReplicate": false
+              },
+              "status": null,
+              "top": "30",
+              "left": "125",
+              "stepType": "/api/3/workflow_step_types/ea155646-3821-4542-9702-b246da430a8d",
+              "group": null,
+              "uuid": "6193cfd3-7cc6-4f8b-a27f-dee9e0b75e92"
+            }
+          ],
+          "routes": [
+            {
+              "@type": "WorkflowRoute",
+              "name": "Build Action Parameters -> Copy of Get Related Violations",
+              "targetStep": "/api/3/workflow_steps/315adcb4-06bf-4a97-9f24-592ce4b35249",
+              "sourceStep": "/api/3/workflow_steps/49e6c959-51bb-46f1-8f8c-86e03e4ad60e",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "ae16555f-5469-4427-9265-84f1d3d5453f"
+            },
+            {
+              "@type": "WorkflowRoute",
+              "name": "Configuration -> Get Related Violations",
+              "targetStep": "/api/3/workflow_steps/31c2bb28-967d-43b0-a069-ae4816815a73",
+              "sourceStep": "/api/3/workflow_steps/c3b15bfd-db95-4ba0-b005-4ac59d67b8aa",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "a77bf754-1ce7-49a0-9a3f-ca39a4c037cb"
+            },
+            {
+              "@type": "WorkflowRoute",
+              "name": "Get Related Violations -> Parse Action Attributes",
+              "targetStep": "/api/3/workflow_steps/3a02ab26-9f60-491a-b19a-7a04f0b4a466",
+              "sourceStep": "/api/3/workflow_steps/31c2bb28-967d-43b0-a069-ae4816815a73",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "de95cd51-910e-4822-8996-8f37f883afe9"
+            },
+            {
+              "@type": "WorkflowRoute",
+              "name": "Parse Action Attribute -> Build Action Parameters",
+              "targetStep": "/api/3/workflow_steps/49e6c959-51bb-46f1-8f8c-86e03e4ad60e",
+              "sourceStep": "/api/3/workflow_steps/c37ebc37-9133-471e-8f97-0fae9cae93fe",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "d43b8948-f04c-4e59-8269-a0f0223e71b8"
+            },
+            {
+              "@type": "WorkflowRoute",
+              "name": "Parse Action Attributes -> Parse Action Attribute",
+              "targetStep": "/api/3/workflow_steps/c37ebc37-9133-471e-8f97-0fae9cae93fe",
+              "sourceStep": "/api/3/workflow_steps/3a02ab26-9f60-491a-b19a-7a04f0b4a466",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "a715e78a-378a-42d8-88ba-c23653152947"
+            },
+            {
+              "@type": "WorkflowRoute",
+              "name": "Start -> Configuration",
+              "targetStep": "/api/3/workflow_steps/c3b15bfd-db95-4ba0-b005-4ac59d67b8aa",
+              "sourceStep": "/api/3/workflow_steps/6193cfd3-7cc6-4f8b-a27f-dee9e0b75e92",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "ebce837e-5cbc-421a-aaaa-8311f4aa7671"
+            }
+          ],
+          "groups": [],
+          "priority": "/api/3/picklists/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
+          "uuid": "da580fdd-e078-4c4e-bf30-abaca1c0f9b3",
+          "id": 894,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -2627,7 +3485,7 @@
           "remoteExecutableFlag": false,
           "parameters": [],
           "synchronous": false,
-          "lastModifyDate": 1728464248,
+          "lastModifyDate": 1768458313,
           "collection": "/api/3/workflow_collections/e201c879-bd9b-4a41-87bf-93fcf1a490c4",
           "versions": [],
           "triggerStep": "/api/3/workflow_steps/d40d103c-1120-4cd5-aca8-f7ff567ec401",
@@ -2655,32 +3513,39 @@
               "description": null,
               "arguments": {
                 "for_each": {
-                  "item": "{{vars.detail_list_incidents}}",
+                  "item": "{{vars.steps.Fetch_List_Incidents.data.result.data.incidentItems}}",
                   "__bulk": true,
                   "parallel": false,
                   "condition": "",
                   "batch_size": 100
                 },
                 "resource": {
+                  "url": "{{vars.item.url}}",
                   "name": "{{vars.item.name or vars.item.violatorText +' | '+ vars.item.reason[0] +' | '+ vars.item.reason[1]}}",
+                  "rule": "{{vars.item.solrquery}}",
                   "type": "/api/3/picklists/574a6ee2-7265-4701-815e-cff83b053bce",
                   "state": "/api/3/picklists/a1bac09b-1441-45aa-ad1b-c88744e48e72",
                   "source": "Securonix SNYPR",
                   "status": "/api/3/picklists/7de816ff-7140-4ee5-bd05-93ce22002146",
-                  "severity": "/api/3/picklists/58d0753f-f7e4-403b-953c-b0f521eab759",
+                  "metrics": "{%- if  vars.item.reason | length > 0-%}\n{%for entry in vars.item.reason%}<li>{{entry}}</li>{%endfor%}\n{%- endif-%}",
+                  "severity": "{{\"Severity\" | picklist(vars.item.priority, \"@id\")}}",
                   "sourceId": "{{vars.item.incidentId}}",
                   "sourceIp": "{% if vars.item.entity == \"Activityip\" %} {{vars.item.violatorText}} {% endif %}",
                   "userName": "{% if vars.item.entity == \"Users\" %} {{vars.item.violatorSubText}} {% endif %}",
                   "__replace": "true",
                   "epochTime": "{{vars.item.casecreatetime}}",
+                  "eventTime": "{{arrow.get(vars.item.caseEventStartTime)}}",
                   "recordTags": [
                     "/api/3/tags/securonix-snypr"
                   ],
-                  "description": "{{vars.item.description}}",
-                  "userDetails": "{% if vars.item.entity == \"Users\" %} {{vars.item.violatorText}} {% endif %}",
+                  "sourceType": "{{vars.item.incidentType}}",
+                  "sourcedata": "{{vars.item|toJSON}}",
+                  "description": "{{vars.item | json2html(row_fields=[\"workflowName\",\"type\",\"priority\",\"riskscore\",\"watchlisted\",\"assignedGroup\",\"sandBoxPolicy\",\"statusCompleted\",\"parentCaseId\"], template=\"Stylized with row selection\", display=\"Horizontal\", styling=false, table_style={})}}",
+                  "userDetails": "{% if vars.item.entity == \"Users\" %} {{vars.item.violatorText}} {%else%} {{vars.item.violatorId}}{% endif %}",
                   "ackSlaStatus": "/api/3/picklists/72979f64-e8b9-4888-a965-957e0ec24818",
                   "respSlaStatus": "/api/3/picklists/72979f64-e8b9-4888-a965-957e0ec24818",
                   "priorityWeight": 1,
+                  "alertDetectionDate": "{{vars.item.casecreatetime}}",
                   "escalatedtoincident": "/api/3/picklists/2128a09c-153d-4db3-985d-de6be33deae5",
                   "resolvedAutomatedly": false,
                   "alertRemainingAckSLA": 0
@@ -2696,7 +3561,7 @@
                 "step_variables": []
               },
               "status": null,
-              "top": "1110",
+              "top": "840",
               "left": "125",
               "stepType": "/api/3/workflow_step_types/2597053c-e718-44b4-8394-4d40fe26d357",
               "group": null,
@@ -2707,11 +3572,11 @@
               "name": "Extract Value From Macro Value",
               "description": null,
               "arguments": {
-                "last_pull_time": "{% if vars.request.env_setup %}{{vars.start_datetime}}{% else %}{% if(vars.steps.Get_Macro_Value.data[\"hydra:member\"] | length) < 1 %}     {{ vars.start_datetime }}{% else %}{{vars.steps.Get_Macro_Value.data['hydra:member'][0]['value'] }}{% endif %}{% endif %}",
-                "current_timestamp": "{{ arrow.utcnow().format(\"YYYY-MM-DDTHH:mm:ss.SSS\") }}Z"
+                "last_pull_time": "{% if vars.request.env_setup %}{{vars.start_datetime}}{% else %}{% if(vars.steps.Get_Macro_Value.data[\"hydra:member\"] | length) < 1 %}{{ vars.start_datetime or arrow.utcnow().shift(days=-3).format(\"YYYY-MM-DDTHH:mm:ss.SS\") ~ \"Z\"}}{% else %}{{vars.steps.Get_Macro_Value.data['hydra:member'][0]['value'] }}{% endif %}{% endif %}",
+                "current_timestamp": "{{ arrow.utcnow().format(\"YYYY-MM-DDTHH:mm:ss.SS\") }}Z"
               },
               "status": null,
-              "top": "440",
+              "top": "435",
               "left": "300",
               "stepType": "/api/3/workflow_step_types/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
               "group": null,
@@ -2732,7 +3597,7 @@
                   "status": "",
                   "rangeType": "Opened"
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "list_incidents",
                 "ignore_errors": false,
@@ -2762,7 +3627,7 @@
                   "status": "",
                   "rangeType": "Opened"
                 },
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "list_incidents",
                 "ignore_errors": false,
@@ -2776,36 +3641,6 @@
               "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671",
               "group": null,
               "uuid": "472a0f88-3a42-499b-84cf-9391a72165de"
-            },
-            {
-              "@type": "WorkflowStep",
-              "name": "Get Incident Details",
-              "description": null,
-              "arguments": {
-                "name": "Securonix SNYPR",
-                "config": "551d6987-c984-4505-9886-008eafaff75c",
-                "params": {
-                  "incidentId": "{{vars.item.incidentId}}"
-                },
-                "version": "2.2.0",
-                "for_each": {
-                  "item": "{{vars.steps.Fetch_Sample_Incidents.data.result.data.incidentItems}}",
-                  "parallel": false,
-                  "condition": ""
-                },
-                "connector": "securonix-snypr",
-                "operation": "get_incident_details",
-                "ignore_errors": false,
-                "operationTitle": "Get Incident Details",
-                "pickFromTenant": false,
-                "step_variables": []
-              },
-              "status": null,
-              "top": "840",
-              "left": "125",
-              "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671",
-              "group": null,
-              "uuid": "43e8f324-1ae7-4c9f-b391-29228fee61f5"
             },
             {
               "@type": "WorkflowStep",
@@ -2829,36 +3664,6 @@
               "stepType": "/api/3/workflow_step_types/0109f35d-090b-4a2b-bd8a-94cbc3508562",
               "group": null,
               "uuid": "6f82f3a5-7e00-44f9-ae5c-af2b1acbb65f"
-            },
-            {
-              "@type": "WorkflowStep",
-              "name": "Get Sample Incident Details",
-              "description": null,
-              "arguments": {
-                "name": "Securonix SNYPR",
-                "config": "551d6987-c984-4505-9886-008eafaff75c",
-                "params": {
-                  "incidentId": "{{vars.item.incidentId}}"
-                },
-                "version": "2.2.0",
-                "for_each": {
-                  "item": "{{vars.steps.Fetch_Sample_Incidents.data.result.data.incidentItems}}",
-                  "parallel": false,
-                  "condition": ""
-                },
-                "connector": "securonix-snypr",
-                "operation": "get_incident_details",
-                "ignore_errors": false,
-                "operationTitle": "Get Incident Details",
-                "pickFromTenant": false,
-                "step_variables": []
-              },
-              "status": null,
-              "top": "840",
-              "left": "475",
-              "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671",
-              "group": null,
-              "uuid": "e6cfcaae-1e22-4be0-b677-85f54534a537"
             },
             {
               "@type": "WorkflowStep",
@@ -2890,20 +3695,6 @@
             },
             {
               "@type": "WorkflowStep",
-              "name": "Sample List Incidents detail",
-              "description": null,
-              "arguments": {
-                "_temp": "{{vars.detail_list_incidents.extend(vars.steps.Get_Sample_Incident_Details.data.result.data.incidentItems)}}"
-              },
-              "status": null,
-              "top": "975",
-              "left": "475",
-              "stepType": "/api/3/workflow_step_types/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
-              "group": null,
-              "uuid": "0bffb7e5-34f6-4d6e-9ad1-8d66b89c4254"
-            },
-            {
-              "@type": "WorkflowStep",
               "name": "Set Result",
               "description": null,
               "arguments": {
@@ -2911,7 +3702,7 @@
                 "updated_last_pull_time": "{{vars.current_timestamp}}"
               },
               "status": null,
-              "top": "1245",
+              "top": "975",
               "left": "125",
               "stepType": "/api/3/workflow_step_types/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
               "group": null,
@@ -2944,28 +3735,14 @@
               "name": "Store Final Result",
               "description": null,
               "arguments": {
-                "data": "{{vars.detail_list_incidents}}"
+                "data": "{{vars.steps.Fetch_Sample_Incidents.data.result.data.incidentItems}}"
               },
               "status": null,
-              "top": "1110",
+              "top": "840",
               "left": "475",
               "stepType": "/api/3/workflow_step_types/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
               "group": null,
               "uuid": "fbf990e8-c4d1-403d-95e3-271ff952ec5e"
-            },
-            {
-              "@type": "WorkflowStep",
-              "name": "Store List Incidents detail",
-              "description": null,
-              "arguments": {
-                "_temp": "{{vars.detail_list_incidents.extend(vars.steps.Get_Incident_Details.data.result.data.incidentItems)}}"
-              },
-              "status": null,
-              "top": "975",
-              "left": "125",
-              "stepType": "/api/3/workflow_step_types/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
-              "group": null,
-              "uuid": "2b8d0859-0a22-4aed-bad5-d709d9220d89"
             }
           ],
           "routes": [
@@ -2978,26 +3755,6 @@
               "isExecuted": false,
               "group": null,
               "uuid": "a61f2f7f-1fa2-4ef2-a1ef-da5dd8df7843"
-            },
-            {
-              "@type": "WorkflowRoute",
-              "name": "Copy of Fetch Sample Incidents -> Copy of Get Incident Details",
-              "targetStep": "/api/3/workflow_steps/43e8f324-1ae7-4c9f-b391-29228fee61f5",
-              "sourceStep": "/api/3/workflow_steps/618c36e9-755d-4521-89dd-4b47da96eabd",
-              "label": null,
-              "isExecuted": false,
-              "group": null,
-              "uuid": "2f57b861-c19c-465d-bb55-948282cad49e"
-            },
-            {
-              "@type": "WorkflowRoute",
-              "name": "Copy of Store List Incidents detail -> Create Record",
-              "targetStep": "/api/3/workflow_steps/22544b42-ebef-4e16-b3b8-442e7b12a205",
-              "sourceStep": "/api/3/workflow_steps/2b8d0859-0a22-4aed-bad5-d709d9220d89",
-              "label": null,
-              "isExecuted": false,
-              "group": null,
-              "uuid": "c4adb915-4bc1-4770-9222-516ce588256e"
             },
             {
               "@type": "WorkflowRoute",
@@ -3021,33 +3778,23 @@
             },
             {
               "@type": "WorkflowRoute",
-              "name": "Fetch Sample Incidents -> Get Incident Details",
-              "targetStep": "/api/3/workflow_steps/e6cfcaae-1e22-4be0-b677-85f54534a537",
+              "name": "Fetch List Incidents -> Create Record",
+              "targetStep": "/api/3/workflow_steps/22544b42-ebef-4e16-b3b8-442e7b12a205",
+              "sourceStep": "/api/3/workflow_steps/618c36e9-755d-4521-89dd-4b47da96eabd",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "b2d4484a-70b7-4622-8801-08ecb9cd2412"
+            },
+            {
+              "@type": "WorkflowRoute",
+              "name": "Fetch Sample Incidents -> Store Final Result",
+              "targetStep": "/api/3/workflow_steps/fbf990e8-c4d1-403d-95e3-271ff952ec5e",
               "sourceStep": "/api/3/workflow_steps/472a0f88-3a42-499b-84cf-9391a72165de",
               "label": null,
               "isExecuted": false,
               "group": null,
-              "uuid": "594a57da-1217-4228-a52d-342061d9acb9"
-            },
-            {
-              "@type": "WorkflowRoute",
-              "name": "Get Incident Details1 -> Copy of Store List Incidents detail",
-              "targetStep": "/api/3/workflow_steps/2b8d0859-0a22-4aed-bad5-d709d9220d89",
-              "sourceStep": "/api/3/workflow_steps/43e8f324-1ae7-4c9f-b391-29228fee61f5",
-              "label": null,
-              "isExecuted": false,
-              "group": null,
-              "uuid": "7a94be60-067d-4f71-b037-70c95c34e896"
-            },
-            {
-              "@type": "WorkflowRoute",
-              "name": "Get Incident Details -> Output Step",
-              "targetStep": "/api/3/workflow_steps/0bffb7e5-34f6-4d6e-9ad1-8d66b89c4254",
-              "sourceStep": "/api/3/workflow_steps/e6cfcaae-1e22-4be0-b677-85f54534a537",
-              "label": null,
-              "isExecuted": false,
-              "group": null,
-              "uuid": "9ad6c398-c532-4026-b54d-a02493da2f48"
+              "uuid": "0243e135-5c6f-4fb8-96bd-5b466422cbcc"
             },
             {
               "@type": "WorkflowRoute",
@@ -3088,22 +3835,14 @@
               "isExecuted": false,
               "group": null,
               "uuid": "f0f75227-2a62-4c59-81ef-07beeab0df92"
-            },
-            {
-              "@type": "WorkflowRoute",
-              "name": "Store List Incidents detail -> Store Final Result",
-              "targetStep": "/api/3/workflow_steps/fbf990e8-c4d1-403d-95e3-271ff952ec5e",
-              "sourceStep": "/api/3/workflow_steps/0bffb7e5-34f6-4d6e-9ad1-8d66b89c4254",
-              "label": null,
-              "isExecuted": false,
-              "group": null,
-              "uuid": "96b6495b-3811-46c6-be09-0322f530059f"
             }
           ],
           "groups": [],
           "priority": "/api/3/picklists/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "dfdb72f0-f9ea-4b04-8b6c-3af2c50e3295",
-          "id": 521,
+          "id": 890,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -3243,8 +3982,10 @@
           ],
           "groups": [],
           "priority": "/api/3/picklists/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "e12d99ae-35a3-49bf-bb9f-c7f80bc3adc6",
-          "id": 522,
+          "id": 891,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -3282,7 +4023,7 @@
                 "name": "Securonix SNYPR",
                 "config": "2379436e-599a-4c02-a73d-76f89cc3c834",
                 "params": [],
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "connector": "securonix-snypr",
                 "operation": "get_available_threat_action",
                 "operationTitle": "Get Available Threat Action",
@@ -3346,8 +4087,10 @@
           ],
           "groups": [],
           "priority": null,
+          "playbookOrigin": "/api/3/picklists/15c1e8c9-22bf-4e66-8fbb-0a502d4a4a3f",
+          "isEditable": true,
           "uuid": "fb17c62c-507e-4ee4-b095-6e302185ac45",
-          "id": 523,
+          "id": 892,
           "owners": [],
           "isPrivate": false,
           "deletedAt": null,
@@ -3363,9 +4106,9 @@
   "exported_tags": [
     "Securonix",
     "securonix-snypr",
-    "create",
     "dataingestion",
-    "fetch",
-    "ingest"
+    "ingest",
+    "create",
+    "fetch"
   ]
 }
